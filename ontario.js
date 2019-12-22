@@ -57230,7 +57230,7 @@ function SimpleCard() {
       emailing: true
     }));
 
-    if (ga) {
+    if (gtag) {
       var val = values.apartment || null;
       gtag('event', 'click', {'event_category' : 'email', 'event_label' : val})
     }
