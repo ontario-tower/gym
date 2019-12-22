@@ -57232,7 +57232,7 @@ function SimpleCard() {
 
     if (ga) {
       var val = values.apartment || null;
-      ga('send', 'event', 'Send email', 'clicked', val);
+      ga('send', 'event', 'email', 'clicked', val);
     }
   };
 
