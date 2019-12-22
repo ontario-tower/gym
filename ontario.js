@@ -57232,7 +57232,7 @@ function SimpleCard() {
 
     if (ga) {
       var val = values.apartment || null;
-      ga('send', 'event', 'email', 'clicked', val);
+      gtag('event', 'click', {'event_category' : 'email', 'event_label' : val})
     }
   };
 
